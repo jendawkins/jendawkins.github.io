@@ -9,24 +9,33 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <h1 id="site-title">Jen Dawkins</h1>
+    <h1 id="site-title">Jen Dawkins, PhD | AI in Medicine</h1>
 
     <br>
 
-    <section id="about-me">
-        <h2>I do computer stuff about germs</h2>
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'about-me')">About Me</button>
+        <button class="tablinks" onclick="openCity(event, 'research')">Research</button>
+        <button class="tablinks" onclick="openCity(event, 'CV')">CV</button>
+    <\div>
+        
+    <div id="about-me">
         <p>I'm a grad student at MIT working on computational models to help us better understand the human gut microbiome</p>
         <p>You can catch me running around the esplanade or more likely sitting and watching veronica mars on hulu for the zillionth time</p>
         <p>I have a dog named Millie and she's very silly</p>
-    </section>
+        <ul>
+            <li><a href="https://www.google.com/search?q=food+near+me&oq=food+ne&aqs=chrome.0.35i39i457j69i57j0i402l2j0i433i512j0i512j0i131i433i512j0i512l2j0i131i433i512.1363j0j9&sourceid=chrome&ie=UTF-8">food near me</a></li>
+        </ul>
+
+    </div>
     <br>
-    <section id="links">
+    <div id="research">
         <h3>Links</h3>
         <ul>
             <li><a href="https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-022-01284-1">CDI paper</a></li>
-            <li><a href="https://github.com/jendawkins">GitHub</a></li>
-            <li><a href="https://www.google.com/search?q=food+near+me&oq=food+ne&aqs=chrome.0.35i39i457j69i57j0i402l2j0i433i512j0i512j0i131i433i512j0i512l2j0i131i433i512.1363j0j9&sourceid=chrome&ie=UTF-8">food near me</a></li>
+            <li><a href="https://github.com/gerberlab/mmethane">MMETHANE repository</a></li>
+            <li><a href="https://github.com/jendawkins">My Github></a></li>
         </ul>
-    </section>
+    </div>
 </body>
 </html>
