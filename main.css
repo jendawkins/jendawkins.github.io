@@ -39,5 +39,7 @@ li {
 
 p.subtitles {
   font-size: 28px;
-  color: #5b5b5be0
+  color: #5b5b5be0;
+  border-bottom-style: solid;
+  border-bottom-width:thin;
 }
