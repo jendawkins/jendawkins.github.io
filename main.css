@@ -12,6 +12,7 @@ li {
     margin: 16px 0;
 }
 
+
 /* Change background color of buttons on hover */
 .tab button:hover {
   background-color: #ddd;
@@ -29,6 +30,8 @@ li {
   border: 1px solid #ccc;
   border-top: none;
 }
-</style>
-</head>
-<body>
+
+.subtitles {
+  font-size: 28px;
+  color: #5b5b5be0
+}
