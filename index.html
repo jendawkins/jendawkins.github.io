@@ -22,6 +22,7 @@
     <div class="tab">
         <button class="tablinks" onclick="openCity(event, 'about-me')">About Me</button>
         <button class="tablinks" onclick="openCity(event, 'research')">Research</button>
+        <button class="tablinks" onclick="download('images/CV-Dec8-2024.pdf')">CV</button>
     </div>
         
     <div id="about-me" class="tabcontent">
@@ -123,6 +124,14 @@
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+    function download(url) {
+        const a = document.createElement('a')
+        a.href = url
+        a.download = url.split('/').pop()
+        document.body.appendChild(a)
+        a.click()
+        document.body.removeChild(a)
+    }
 </script>
 </body>
 </html>
